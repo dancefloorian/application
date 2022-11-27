@@ -161,4 +161,3 @@ def ordered_dictionary():
 	#return the ordered dictionary
 	return ord_dictionary
 
-print(ordered_dictionary())
