@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Team Project</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='jquery.highlight-within-textarea.js')}}"></script>
+    <script src="{{ url_for('static', filename='synonym_matcher.js')}}" defer></script>
+    <link href="{{ url_for('static', filename='jquery.highlight-within-textarea.css')}}" rel="stylesheet">
+</head>
+<body>
+
+<h1>Team Project: Team G</h1>
+
+<div>
+    <label for="text"> Your Text: </label>
+    <textarea id="text"> </textarea>
+</div>
+
+</body>
+</html>
